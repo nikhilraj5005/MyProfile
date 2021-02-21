@@ -658,13 +658,13 @@ h1, h2, h3, h4, h5, h6, figure {
 .progress {
   width: 100%;
   float: left;
-  height: 5px;
+  height: 10px;
   box-shadow: none;
 }
 
 .progress-bar {
   background-color: #2F3C4F;
-  height: 5px;
+  height: 10px;
   display: block;
   box-shadow: none;
 }
@@ -1290,4 +1290,18 @@ input[type="text"] {
   opacity: 0;
 }
 
+.tiles {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 4.5em;
+  margin-top: 10px;
+  margin-left: 12px;
+  width: 98%;
+  position: relative;
+  z-index: 1;
+  backdrop-filter: blur(40px);
+  border: solid 2px #0000000f;
+  background-clip: padding-box;
+  box-shadow: 3px 9px 9px 0px #ff900066;
+  border-radius: 30px;
+}
 /*# sourceMappingURL=style.css.map */
